@@ -3,14 +3,21 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [Getting started](#startpainting)
+* [Restarting](#restarting)
+* [Picking a color](#pickingacolor)
 * [Contributing](#contributing)
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+## Getting started
+#### To get started choose a grid size and color. Click the submit button and a grid with specified dimentions will be generated. They will be filled with the color you chose. If the clicked cell is already filled, then the color will be removed.
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Restarting
+### To restart, click the submit button and the grid will be reset. You can select another grid size and color if you want.
+
+## Picking a color
+### Depending on your browser you might or might not see a color picker. If there is no color picker then put in the hex value of the color in full hex format, no abbreviated hex values will work.
 
 ## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+### To contribute to this project, fork the repo and make your changes. Then submit a pull request on the repository and if necessary, it will be accepted.
