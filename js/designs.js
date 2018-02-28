@@ -12,7 +12,6 @@ function makeGrid() {
       mRow.append($('<td id="' + j + '"">')); //Populates the row with cells
     }
   }
-  $('td').trigger('click'); //Triggers the click event for the <td> elements. If you don't there is a weird bug, this overcame it
 }
 
 //Function that converts the rgb color format to hex format
@@ -33,7 +32,7 @@ $("#subBtn").click(function() {
 
 //Method for filling blocks with the color selected
 $('#pixelCanvas').on('click', 'td', function() {
-  const mCell = $(event.target);
+  const mCell = $(this);
   const pColor = $('.input-color').val();
   const cellColor = rgb2hex(mCell.css('background-color'));
 
