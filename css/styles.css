@@ -43,6 +43,11 @@ input[type=number] {
     width: 6em;
 }
 
+button {
+  padding-top: 4px;
+  padding-bottom: 1px;
+}
+
 #inputHeight {
   margin-right: 10px;
 }
