@@ -9,6 +9,7 @@ body {
 h1 {
     font-size: 70px;
     margin: 0.2em;
+    color: #33ccff;
 }
 
 h2 {
@@ -46,6 +47,12 @@ input[type=number] {
 button {
   padding-top: 4px;
   padding-bottom: 1px;
+  width: 75px;
+  margin-left: 5px;
+}
+
+hr {
+  margin-bottom: 20px;
 }
 
 #inputHeight {
